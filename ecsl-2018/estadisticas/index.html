@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="https://storage.googleapis.com/decimaerp/organizations/15/favico.png" type="image/vnd.microsoft.icon" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="referrer" content="always">
+		<link rel="canonical" href="/estadisticas">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="https://storage.googleapis.com/decimaerp-cdn-bucket/kwaai/css/main-v1.1.5.css"/>
+		<link rel="stylesheet" href="https://storage.googleapis.com/decimaerp-cdn-bucket/kwaai/css/button-custom-classes.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"></link>
+		<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+		<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+		<script src="https://www.amcharts.com/lib/3/serial.js"></script>
+		<script src="https://www.amcharts.com/lib/3/pie.js"></script>
+		<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+		<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+		<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.1/build/alertify.min.js"></script>
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.1/build/css/alertify.min.css"/>
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.1/build/css/themes/bootstrap.min.css"/>
+
+		<link rel="stylesheet" href="/assets/build/css/main.css?id=6210d31d5d1070880413">
+		<meta name="description" content="El Encuentro Centroamericano de Software Libre (ECSL) es un evento anual organizado desde el año 2009 por y para la comunidad Software Libre Centroamérica (SLCA). El ECSL es una reunión de activistas y miembros de comunidades y grupos de usuarios/as que sirve como punto de encuentro y espacio de articulación, educación, coordinación e intercambio de ideas para fortalecer acuerdos y formas de trabajo conjuntas que faciliten la promoción del uso y desarrollo del Software Libre en la región.">
+		<title>ECSL-2018</title>
+		<meta name="keywords" content="ECSL2018,SLSV,SV,ecsl-2018,ecsl-2018SV"/>
+		<meta property="og:title" content="Encuentro Centroamericano de Software Libre 2018" />
+		<meta property="og:description" content="El Encuentro Centroamericano de Software Libre (ECSL) es un evento anual organizado desde el año 2009 por y para la comunidad Software Libre Centroamérica (SLCA). El ECSL es una reunión de activistas y miembros de comunidades y grupos de usuarios/as que sirve como punto de encuentro y espacio de articulación, educación, coordinación e intercambio de ideas para fortalecer acuerdos y formas de trabajo conjuntas que faciliten la promoción del uso y desarrollo del Software Libre en la región." />
+		<meta property="og:image" content="https://storage.googleapis.com/decimaerp/organizations/15/carousel3.jpg" />
+	</head>
+	<body id="body" data-spy="scroll" data-target="#sideLogistica">
+		<header>
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=1449107735377420";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+			<script>window.twttr = (function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0],
+					t = window.twttr || {};
+				if (d.getElementById(id)) return t;
+				js = d.createElement(s);
+				js.id = id;
+				js.src = "https://platform.twitter.com/widgets.js";
+				fjs.parentNode.insertBefore(js, fjs);
+
+				t._e = [];
+				t.ready = function(f) {
+					t._e.push(f);
+				};
+
+				return t;
+			}(document, "script", "twitter-wjs"));</script>
+			<a href="#page-container" class="sr-only">Skip to content</a>
+			<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="/" style="padding:0;"><img src="https://storage.googleapis.com/decimaerp/organizations/15/logo_header.png" class="" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li>
+          <a id="top-navbar-menu" href="#body" style="display: none;" class="sr-only">Scroll to navbar</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " href="#" id="navbarEvento" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Evento
+              </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarEvento">
+            <a class="dropdown-item" href="/logistica"><i class="fa fa-info-circle" aria-hidden="true"></i> Logística</a>
+            <a class="dropdown-item" href="/agenda"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Agenda</a>
+            <a class="dropdown-item" href="/ejes-tematicos"><i class="fa fa-list-ul" aria-hidden="true"></i> Ejes Temáticos</a>
+            <a class="dropdown-item" href="/becas"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Becas</a>
+            <a class="dropdown-item" href="/eventos-anteriores"><i class="fa fa-calendar" aria-hidden="true"></i> Eventos Anteriores</a>
+            <a class="dropdown-item" href="/faq"><i class="fa fa-question-circle-o" aria-hidden="true"></i> Preguntas Frecuentes</a>
+            <a class="dropdown-item fake-link" data-toggle="modal" data-target="#Contact" role="button"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Contacto</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-ponencias" href="javascript:void(0)">Ponencias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/fotografias">Fotografías</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/estadisticas">Estadísticas</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+		</header>
+		<main role="main">
+			<div id='page-container' class="site-background-color" role="main" data-current-page-width="">
+				<fieldset id="main-panel-fieldset">
+				<style>
+#chartGenero, #chartNacionalidad, #chartInstitucion {
+  width: 100%;
+  height: 500px;
+}
+</style>
+
+<script>
+  var chartGenero = AmCharts.makeChart( "chartGenero", {
+    "type": "pie",
+    "theme": "light",
+    "dataProvider": [{"genero":"(transg\u00e9nero) no binario","value":1},{"genero":"Hombre","value":99},{"genero":"Mujer","value":29},{"genero":"Prefiero no decirlo","value":1}],
+    "valueField": "value",
+    "titleField": "genero",
+    "outlineAlpha": 0.4,
+    "depth3D": 15,
+    "balloonText": "[[title]]<br><span style='font-size:14px'><b>[[value]]</b> ([[percents]]%)</span>",
+    "angle": 30,
+    "export": {
+      "enabled": true
+    }
+  } );
+
+  var chartNacionalidad = AmCharts.makeChart("chartNacionalidad", {
+    "theme": "light",
+    "type": "serial",
+    "startDuration": 2,
+    "dataProvider": [{"country":"Belize","value":5},{"country":"Costa Rica","value":14},{"country":"El Salvador","value":93},{"country":"Guatemala","value":11},{"country":"Honduras","value":2},{"country":"Nicaragua","value":2},{"country":"Panama","value":3}],
+    "valueAxes": [{
+        "position": "left",
+        "title": "Nacionalidades"
+    }],
+    "graphs": [{
+        "balloonText": "[[category]]: <b>[[value]]</b>",
+        // "fillColorsField": "color",
+        "fillAlphas": 1,
+        "lineAlpha": 0.1,
+        "type": "column",
+        "valueField": "value"
+    }],
+    "depth3D": 20,
+    "angle": 30,
+    "chartCursor": {
+        "categoryBalloonEnabled": false,
+        "cursorAlpha": 0,
+        "zoomable": false
+    },
+    "categoryField": "country",
+    "categoryAxis": {
+        "gridPosition": "start",
+        "labelRotation": 90
+    },
+    "export": {
+      "enabled": true
+      }
+  });
+
+  var chartInstitucion = AmCharts.makeChart("chartInstitucion", {
+    "theme": "light",
+    "type": "serial",
+    "startDuration": 2,
+    "dataProvider": [{"institution":"AESIC-BCN","value":1},{"institution":"ALSW","value":1},{"institution":"ARPAS ","value":1},{"institution":"ASITI","value":1},{"institution":"Belize Open Source","value":1},{"institution":"Belizeit\/belizeos","value":1},{"institution":"Corte de Cuentas de la Rep\u00fablica","value":3},{"institution":"DecimaERP","value":8},{"institution":"EDUCO","value":1},{"institution":"GoTouch- Tecnologico de Costa Rica","value":1},{"institution":"Gridshield","value":5},{"institution":"Guatemala","value":1},{"institution":"Guatema\u00f1a","value":1},{"institution":"Hackerpace San Salvador","value":3},{"institution":"HNSR","value":1},{"institution":"IEPROES","value":4},{"institution":"Instituto Nacional \"Prof. Jos\u00e9 Luis L\u00f3pez\"","value":2},{"institution":"Instituto Tecnologico Centroamericano","value":1},{"institution":"ITCA - FEPADE","value":1},{"institution":"ITCA-FEPADE, LA UNION","value":1},{"institution":"Java User Group Nicaragua y Fedora Nicaragua","value":1},{"institution":"LinUES","value":3},{"institution":"Ministerio de Educaci\u00f3n de El Salvador","value":1},{"institution":"Ministerio de Salud de El Salvador","value":9},{"institution":"Mozilla ","value":8},{"institution":"SLGT","value":2},{"institution":"Software Libre Guatemala","value":1},{"institution":"Solvo","value":2},{"institution":"Statistical Institute of Belize","value":1},{"institution":"tec.ac.cr","value":1},{"institution":"Tharix","value":1},{"institution":"UCA","value":1},{"institution":"UES","value":3},{"institution":"Universidad de Costa Rica","value":3},{"institution":"Universidad de El Salvador ","value":2},{"institution":"Universidad Gerado Barrios","value":1},{"institution":"Universidad Gerardo Barrios","value":21},{"institution":"Universidad Luterana Salvadore\u00f1a","value":7},{"institution":"Xelalug, openSUSE Guatemala","value":1}],
+    "graphs": [{
+        "balloonText": "[[category]]: <b>[[value]]</b>",
+        // "fillColorsField": "color",
+        "fillAlphas": 1,
+        "lineAlpha": 0.1,
+        "type": "column",
+        "valueField": "value"
+    }],
+    "depth3D": 20,
+    "angle": 30,
+    "chartCursor": {
+        "categoryBalloonEnabled": false,
+        "cursorAlpha": 0,
+        "zoomable": false
+    },
+    "categoryField": "institution",
+    "categoryAxis": {
+        "gridPosition": "start",
+        "labelRotation": 90
+    },
+    "export": {
+      "enabled": true
+      }
+  });
+</script>
+<div class="container">
+    <h1 class="mt-4 mb-3">Estadísticas</h1>
+
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">
+      <a href="/"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a>
+    </li>
+    <li class="breadcrumb-item">Evento</li>
+    <li class="breadcrumb-item active">Estadísticas</li>
+  </ol>
+
+  <h3 class="font-weight-bold text-center">Género de participantes</h3>
+  <!-- HTML -->
+  <div id="chartGenero"></div>
+
+  <h3 class="font-weight-bold text-center">Nacionalidad de participantes</h3>
+  <!-- HTML -->
+  <div id="chartNacionalidad"></div>
+
+  <h3 class="font-weight-bold text-center mt-4">Instituciones representadas</h3>
+  <!-- HTML -->
+  <div id="chartInstitucion"></div>
+
+</div>
+
+					<button id="app-loader" class="btn btn-warning btn-disable btn-lg d-none" disabled><i class="fa fa-circle-o-notch fa-spin fa-lg"></i> Cargando</button>
+					<input type="hidden" id="app-url" value="">
+				</fieldset>
+			</div>
+			<div class="modal fade" id="Contact" tabindex="-1" role="dialog" aria-labelledby="Body" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Contáctanos</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+      </div>
+      <div class="modal-body">
+        <p>Representante por comisión:</p>
+        <ul>
+          <li><strong>Coordinación general:</strong> Carlos Juan Martín Pérez <<a href="mailto:kadejo@gmail.com">kadejo@gmail.com</a>></li>
+          <li><strong>Comisión de soporte y sistemas informáticos:</strong> Mario Gallegos <<a href="mailto:mgallegos@decimaerp.com">mgallegos@decimaerp.com</a>></li>
+          <li><strong>Comunicación y divulgación:</strong> Karla Hernández <<a href="mailto:karla.hdz4@gmail.com">karla.hdz4@gmail.com</a>></li>
+          <li><strong>Actividades recreativas y culturales:</strong> Keyla Merino <<a href="mailto:keyla.merino@gmail.com">keyla.merino@gmail.com</a>></li>
+           <li><strong>Logística:</strong> Víctor Manuel Salmerón <!--<<a href="mailto:name@example.com">name@example.com</a>>--></li>
+          <li><strong>Finanzas:</strong> Moises Larín <<a href="mailto:info@delfos-cloud.com">info@delfos-cloud.com</a>></li>
+          <li><strong>Comisión de metodología y coordinación de voluntariado:</strong> Oscar Aguilar <<a href="mailto:oaguilar@ieproes.edu.sv">oaguilar@ieproes.edu.sv</a>></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-dismiss="modal"><i class="fa fa-undo"></i> Regresar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+			<button id="back-to-top" type="button" class="btn btn btn-success" style="top: inherit;padding: .375rem .75rem;"><i class="fa fa-chevron-up"></i></button>
+		</main>
+
+		<footer class="footer bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="m-0 font-weight-light font-weight-bold text-white text-center d-block d-sm-block d-md-none d-xl-none">
+          X Encuentro Centroamericano de Software Libre<br>Organizado por la SLSV
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <p class="m-0 font-weight-light font-weight-bold text-white d-none d-md-block d-lg-block d-xl-block">
+          X Encuentro Centroamericano de Software Libre</p>
+      </div>
+      <div class="col-md-4">
+        <p class="m-0 text-center font-weight-light font-weight-bold text-white d-none d-md-block d-lg-block d-xl-block">Organizado por la SLSV</p>
+      </div>
+    </div>
+  </div>
+</footer>
+	</body>
+
+	<script>
+		$(document).ready(function()
+		{
+			var wow = new WOW(
+			{
+			boxClass:     'wow',      // default
+			animateClass: 'animated', // default
+			offset:       10,          // default
+			mobile:       true,       // default
+			live:         true        // default
+			});
+
+			wow.init();
+			$('[data-toggle="tooltip"]').tooltip()
+			$('#ver-ponencias').click(function()
+			{
+				alertify.alert("¡Próximamente!", "Las ponencias estarán listas muy pronto, espéralas...");
+			});
+
+			$('#nav-ponencias').on("click", function()
+			{
+				alertify.alert("¡Próximamente!", "Las ponencias estarán listas muy pronto, espéralas...");
+			});
+
+
+			$('[data-toggle="lightbox"]').click(function(event)
+			{
+				event.preventDefault();
+				$(this).ekkoLightbox();
+			});
+		});
+	</script>
+</html>

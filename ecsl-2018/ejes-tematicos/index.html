@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<link rel="shortcut icon" href="https://storage.googleapis.com/decimaerp/organizations/15/favico.png" type="image/vnd.microsoft.icon" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="referrer" content="always">
+		<link rel="canonical" href="/ejes-tematicos">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="https://storage.googleapis.com/decimaerp-cdn-bucket/kwaai/css/main-v1.1.5.css"/>
+		<link rel="stylesheet" href="https://storage.googleapis.com/decimaerp-cdn-bucket/kwaai/css/button-custom-classes.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"></link>
+		<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+		<script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+		<script src="https://www.amcharts.com/lib/3/serial.js"></script>
+		<script src="https://www.amcharts.com/lib/3/pie.js"></script>
+		<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+		<script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+		<script src="//cdn.jsdelivr.net/npm/alertifyjs@1.11.1/build/alertify.min.js"></script>
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.1/build/css/alertify.min.css"/>
+		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.1/build/css/themes/bootstrap.min.css"/>
+
+		<link rel="stylesheet" href="/assets/build/css/main.css?id=6210d31d5d1070880413">
+		<meta name="description" content="El Encuentro Centroamericano de Software Libre (ECSL) es un evento anual organizado desde el año 2009 por y para la comunidad Software Libre Centroamérica (SLCA). El ECSL es una reunión de activistas y miembros de comunidades y grupos de usuarios/as que sirve como punto de encuentro y espacio de articulación, educación, coordinación e intercambio de ideas para fortalecer acuerdos y formas de trabajo conjuntas que faciliten la promoción del uso y desarrollo del Software Libre en la región.">
+		<title>ECSL-2018</title>
+		<meta name="keywords" content="ECSL2018,SLSV,SV,ecsl-2018,ecsl-2018SV"/>
+		<meta property="og:title" content="Encuentro Centroamericano de Software Libre 2018" />
+		<meta property="og:description" content="El Encuentro Centroamericano de Software Libre (ECSL) es un evento anual organizado desde el año 2009 por y para la comunidad Software Libre Centroamérica (SLCA). El ECSL es una reunión de activistas y miembros de comunidades y grupos de usuarios/as que sirve como punto de encuentro y espacio de articulación, educación, coordinación e intercambio de ideas para fortalecer acuerdos y formas de trabajo conjuntas que faciliten la promoción del uso y desarrollo del Software Libre en la región." />
+		<meta property="og:image" content="https://storage.googleapis.com/decimaerp/organizations/15/carousel3.jpg" />
+	</head>
+	<body id="body" data-spy="scroll" data-target="#sideLogistica">
+		<header>
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=1449107735377420";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+			<script>window.twttr = (function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0],
+					t = window.twttr || {};
+				if (d.getElementById(id)) return t;
+				js = d.createElement(s);
+				js.id = id;
+				js.src = "https://platform.twitter.com/widgets.js";
+				fjs.parentNode.insertBefore(js, fjs);
+
+				t._e = [];
+				t.ready = function(f) {
+					t._e.push(f);
+				};
+
+				return t;
+			}(document, "script", "twitter-wjs"));</script>
+			<a href="#page-container" class="sr-only">Skip to content</a>
+			<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="/" style="padding:0;"><img src="https://storage.googleapis.com/decimaerp/organizations/15/logo_header.png" class="" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li>
+          <a id="top-navbar-menu" href="#body" style="display: none;" class="sr-only">Scroll to navbar</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " href="#" id="navbarEvento" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Evento
+              </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarEvento">
+            <a class="dropdown-item" href="/logistica"><i class="fa fa-info-circle" aria-hidden="true"></i> Logística</a>
+            <a class="dropdown-item" href="/agenda"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Agenda</a>
+            <a class="dropdown-item" href="/ejes-tematicos"><i class="fa fa-list-ul" aria-hidden="true"></i> Ejes Temáticos</a>
+            <a class="dropdown-item" href="/becas"><i class="fa fa-graduation-cap" aria-hidden="true"></i> Becas</a>
+            <a class="dropdown-item" href="/eventos-anteriores"><i class="fa fa-calendar" aria-hidden="true"></i> Eventos Anteriores</a>
+            <a class="dropdown-item" href="/faq"><i class="fa fa-question-circle-o" aria-hidden="true"></i> Preguntas Frecuentes</a>
+            <a class="dropdown-item fake-link" data-toggle="modal" data-target="#Contact" role="button"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Contacto</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-ponencias" href="javascript:void(0)">Ponencias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/fotografias">Fotografías</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/estadisticas">Estadísticas</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+		</header>
+		<main role="main">
+			<div id='page-container' class="site-background-color" role="main" data-current-page-width="">
+				<fieldset id="main-panel-fieldset">
+				<div class="container">
+  <h1 class="mt-4 mb-3">Ejes Temáticos</h1>
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">
+      <a href="/"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a>
+    </li>
+    <li class="breadcrumb-item">Evento</li>
+    <li class="breadcrumb-item active">Ejes Temáticos</li>
+  </ol>
+
+  <div class="portafolio-item d-lg-none">
+    <div id="main-theme" class="list-group">
+      <a class="list-group-item font-weight-bold" href="#main-theme-1">
+        Ejes Temático #1: Aportemos al desarrollo de más y mejor software libre.</a>
+      <a class="list-group-item font-weight-bold" href="#main-theme-2">
+        Ejes Temático #2: Desarrollemos y conozcamos más sobre hardware libre.</a>
+      <a class="list-group-item font-weight-bold" href="#main-theme-3">
+        Ejes Temático #3: Liberemos espacios en la web con software libre.</a>
+      <a class="list-group-item font-weight-bold" href="#main-theme-4">
+        Ejes Temático #4: Usemos geotecnologías libres para la gestión de información geográficas.</a>
+      <a class="list-group-item font-weight-bold" href="#main-theme-5">
+        Ejes Temático #5: Seamos una comunidad más inclusiva y diversa.</a>
+      <a class="list-group-item font-weight-bold" href="#main-theme-6">
+        Ejes Temático #6: Democraticemos los medios de comunicación con el apoyo del software libre.</a>
+      <a class="list-group-item font-weight-bold" href="#main-theme-7">
+        Ejes Temático #7: Fortalezcamos la comunidad centroamericana de software libre.</a>
+      <a class="list-group-item font-weight-bold" href="#main-theme-8">
+        Ejes Temático #8: Abramos un espacio de desconferencia.</a>
+    </div>
+  </div>
+
+  <div class="container " data-spy="scroll" data-target="#main-theme" data-offset="0">
+    <div class="right-block" id="main-theme-1">
+      <div class="row bg-light font-weight-bold text-center align-middle" >
+        <div class="col-md-12 border p-3">Eje Temático #1: Aportemos al desarrollo de más y mejor software libre.</div>
+      </div>
+      <div class="row text-center border-left border-bottom portafolio-item">
+        <div class="col-md-4 align-middle border-top border-right pt-4 pb-0 mb-0 ">
+          <h6 class="font-weight-bold">Objetivo</h6>
+          <p class="text-justify">Usar, estudiar, compartir y mejorar software libre reconociendo las diversas prácticas,
+            entornos y tecnologías que se desarrollan para fortalecer la comprensión del impacto en la
+            generación de modelos de intercambio y desarrollo de información y conocimiento más eficaces
+            y eficientes en una sociedad cada vez más conectada.</p>
+        </div>
+          <div class="col-md-8  text-left tbl-container ">
+              <table class="table table-sm table-bordered table-striped mb-0">
+                  <thead>
+                    <tr>
+                      <th class="text-center">Contenido</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.1. Desarrollo y aplicación en el uso de las diversas distribuciones GNU/Linux.</td>
+                    </tr>
+                    <tr>
+                      <td>1.2. Desarrollo y aplicación de diversos utilitarios y software libres.</td>
+                    </tr>
+                    <tr>
+                      <td>1.3. Compartiendo y enseñando sobre lenguajes de programación.</td>
+                    </tr>
+                    <tr>
+                      <td>1.4. Licenciamiento en software libre.</td>
+                    </tr>
+                    <tr>
+                      <td>1.5. Compartiendo Iniciativas y desarrollos en la región sobre software libre.</td>
+                    </tr>
+                    <tr>
+                      <td>1.6. Comercialización de productos y/o servicios en software libre.</td>
+                    </tr>
+                    <tr>
+                      <td>1.7. Enseñanzas, experiencias y aprendizajes sobre software libre.</td>
+                    </tr>
+                  </tbody>
+              </table>
+          </div>
+        </div>
+
+    </div>
+
+    <div class="right-block" id="main-theme-2">
+      <div class="row bg-light font-weight-bold text-center align-middle" >
+        <div class="col-md-12 border p-3">Eje Temático #2: Desarrollemos y conozcamos más sobre hardware libre.</div>
+      </div>
+      <div class="row text-center border-left border-bottom portafolio-item">
+        <div class="col-md-4 align-middle border-top border-right pt-4 pb-0 mb-0 ">
+          <h6 class="font-weight-bold">Objetivo</h6>
+          <p class="text-justify">Conocer e identificar las diversas definiciones y clasificaciones existentes sobre
+            hardware libre y como los procesos de intercambio y liberación de diseño y código permiten el desarrollo
+            del fomento de hardware útil y eficaz en sus múltiples funcionamientos y capacidades.</p>
+        </div>
+          <div class="col-md-8  text-left tbl-container ">
+              <table class="table table-sm table-bordered table-striped mb-0">
+                  <thead>
+                    <tr>
+                      <th class="text-center">Contenido</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>2.1. Software libre y código abierto en hardware.</td>
+                    </tr>
+                    <tr>
+                      <td>2.2. Buenas Prácticas para el hardware de fuente abierta.</td>
+                    </tr>
+                    <tr>
+                      <td>2.3. Diseño y desarrollo de hardware libre.</td>
+                    </tr>
+                    <tr>
+                      <td>2.4. Licenciamiento de hardware de fuente abierta.</td>
+                    </tr>
+                    <tr>
+                      <td>2.5. Compartiendo Iniciativas y desarrollos en la región sobre hardware libre.</td>
+                    </tr>
+                    <tr>
+                      <td>2.6. Comercialización de productos y/o servicios en hardware libre.</td>
+                    </tr>
+                    <tr>
+                      <td>2.7. Enseñanzas, experiencias y aprendizajes sobre hardware libre.</td>
+                    </tr>
+                  </tbody>
+              </table>
+          </div>
+        </div>
+    </div>
+
+    <!-- Eje Tres -->
+    <div class="right-block" id="main-theme-3">
+      <div class="row bg-light font-weight-bold text-center align-middle" >
+        <div class="col-md-12 border p-3">Eje Temático #3: Liberemos espacios en la web con software libre.</div>
+      </div>
+      <div class="row text-center border-left border-bottom portafolio-item">
+        <div class="col-md-4 align-middle border-top border-right pt-5 pb-0 mb-0 ">
+          <h6 class="font-weight-bold">Objetivo</h6>
+          <p class="text-justify">Hacer uso de tecnologías abierta e innovadoras que permitan el desarrollo
+            de ambientes que luchen contra la desinformación en internet además de velar por los derechos digitales
+            como la seguridad, la privacidad y la anonimidad.</p>
+        </div>
+          <div class="col-md-8  text-left tbl-container ">
+              <table class="table table-sm table-bordered table-striped mb-0">
+                  <thead>
+                    <tr>
+                      <th class="text-center">Contenido</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>3.1. Software libre para seguridad en infraestructura.</td>
+                    </tr>
+                    <tr>
+                      <td>3.2. Implementación de internet de las Cosas (IoT).</td>
+                    </tr>
+                    <tr>
+                      <td>3.3. Privacidad, vigilancia y uso de datos de las personas usuarias.</td>
+                    </tr>
+                    <tr>
+                      <td>3.4. Desarrollo de aplicaciones móviles y la experiencia del usuario (UX).</td>
+                    </tr>
+                    <tr>
+                      <td>3.5. Compartiendo Iniciativas y desarrollos en la región sobre una web abierta.</td>
+                    </tr>
+                    <tr>
+                      <td>3.6. Comercialización de productos y/o servicios en la web con software libre.</td>
+                    </tr>
+                    <tr>
+                      <td>3.7. Enseñanzas, experiencias y aprendizajes sobre la web y el software libre.</td>
+                    </tr>
+                  </tbody>
+              </table>
+          </div>
+        </div>
+    </div>
+
+    <!-- Eje Cuatro -->
+    <div class="right-block" id="main-theme-4">
+      <div class="row bg-light font-weight-bold text-center align-middle" >
+        <div class="col-md-12 border p-3">Eje Temático #4: Usemos geotecnologías libres para la gestión de información geográficas.</div>
+      </div>
+      <div class="row text-center border-left border-bottom portafolio-item">
+        <div class="col-md-4 align-middle border-top border-right pt-3 pb-0 mb-0 ">
+          <h6 class="font-weight-bold">Objetivo</h6>
+          <p class="text-justify">Conocer e identificar prácticas, experiencias y capacidades desarrolladas en los países
+            de la región centroamericana e internacionalmente que contribuyan en la implementación de plataformas y sistemas
+            de información geográfica libres, herramientas participativas para la geolocalización e iniciativas de mapeo
+            colaborativo, con miras al desarrollo tecnológico y científico de los estados nacionales, sector privado y
+            movimientos sociales en Centroamérica.</p>
+        </div>
+          <div class="col-md-8  text-left tbl-container ">
+              <table class="table table-sm table-bordered table-striped mb-0 p-2">
+                  <thead>
+                    <tr>
+                      <th class="text-center p-2">Contenido</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="py-2">4.1. Usando herramientas y aplicaciones con geotecnologías libres.</td>
+                    </tr>
+                    <tr>
+                      <td class="py-2">4.2. Conociendo sobre transporte y movilidad sustentable.</td>
+                    </tr>
+                    <tr>
+                      <td class="py-2">4.3. Geotecnologías libres y participativas para la gestión de riesgo.</td>
+                    </tr>
+                    <tr>
+                      <td class="py-2">4.4. Compartiendo iniciativas y desarrollos de mapeo colaborativo en la región.</td>
+                    </tr>
+                    <tr>
+                      <td class="py-2">4.5. Implementando mapas libres en la web.</td>
+                    </tr>
+                    <tr>
+                      <td class="py-2">4.6. Comercialización de productos y/o servicios en el uso de geotecnologías.</td>
+                    </tr>
+                    <tr>
+                      <td class="py-2">4.7. Enseñanzas, experiencias y aprendizajes sobre geotecnologías.</td>
+                    </tr>
+                  </tbody>
+              </table>
+          </div>
+        </div>
+    </div>
+
+    <!-- Eje Cinco -->
+    <div class="right-block" id="main-theme-5">
+      <div class="row bg-light font-weight-bold text-center align-middle" >
+        <div class="col-md-12 border p-3">Eje Temático #5: Seamos una comunidad más inclusiva y diversa.</div>
+      </div>
+      <div class="row text-center border-left border-bottom portafolio-item">
+        <div class="col-md-4 align-middle border-top border-right pt-5 pb-0 mb-0 ">
+          <h6 class="font-weight-bold">Objetivo</h6>
+          <p class="text-justify">Generar un modelo de construcción cultural con acción política y ética con
+             una perspectiva de género y cultura libre haciendo uso de diversas tecnologías libres.</p>
+        </div>
+          <div class="col-md-8  text-left tbl-container ">
+              <table class="table table-sm table-bordered table-striped mb-0">
+                  <thead>
+                    <tr>
+                      <th class="text-center">Contenido</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>5.1. Género, identidades e inclusión.</td>
+                    </tr>
+                    <tr>
+                      <td>5.2. Violencia de género en Internet.</td>
+                    </tr>
+                    <tr>
+                      <td>5.3. Inclusión de más mujeres en ciencia y tecnología.</td>
+                    </tr>
+                    <tr>
+                      <td>5.4. Compartiendo Iniciativas y desarrollos en la región sobre inclusión y diversidad.</td>
+                    </tr>
+                    <tr>
+                      <td>5.5. Enseñanzas, experiencias y aprendizajes en procesos sobre inclusión y diversidad.</td>
+                    </tr>
+                  </tbody>
+              </table>
+          </div>
+        </div>
+    </div>
+
+    <!-- Eje Seis -->
+    <div class="right-block" id="main-theme-6">
+      <div class="row bg-light font-weight-bold text-center align-middle" >
+        <div class="col-md-12 border p-3">Eje Temático #6: Democraticemos los medios de comunicación con el apoyo del software libre.</div>
+      </div>
+      <div class="row text-center border-left border-bottom portafolio-item">
+        <div class="col-md-4 align-middle border-top border-right pt-5 pb-0 mb-0 ">
+          <h6 class="font-weight-bold">Objetivo</h6>
+          <p class="text-justify">Ampliar el debate de la democratización de la comunicación haciendo uso de software libre
+             y conocer la experiencia desde las radios comunitarias en la región centroamericana. </p>
+        </div>
+          <div class="col-md-8  text-left tbl-container ">
+              <table class="table table-sm table-bordered table-striped mb-0">
+                  <thead>
+                    <tr>
+                      <th class="text-center">Contenido</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>6.1. Software libre en la democratización de medios digitales e impresos.</td>
+                    </tr>
+                    <tr>
+                      <td>6.2. Estado actual de las leyes y sus reformas en telecomunicaciones de la región.</td>
+                    </tr>
+                    <tr>
+                      <td>6.3. Experiencias con software libre desde las radios comunitarias y otros medios</td>
+                    </tr>
+                    <tr>
+                      <td>6.4. Reactivación de la lucha a favor de una sociedad justa e igualitaria.</td>
+                    </tr>
+                    <tr>
+                      <td>6.5. Enseñanzas, experiencias y aprendizajes en procesos de comunicación social.</td>
+                    </tr>
+                  </tbody>
+              </table>
+          </div>
+        </div>
+    </div>
+
+    <!-- Eje Siete -->
+    <div class="right-block" id="main-theme-7">
+      <div class="row bg-light font-weight-bold text-center align-middle" >
+        <div class="col-md-12 border p-3">Eje Temático #7: Fortalezcamos la comunidad centroamericana de software libre.</div>
+      </div>
+      <div class="row text-center border-left border-bottom portafolio-item">
+        <div class="col-md-4 align-middle border-top border-right pt-4 pb-0 mb-0 ">
+          <h6 class="font-weight-bold">Objetivo</h6>
+          <p class="text-justify">Fortalecer los medios de comunicación y la estructura organizacional y de acción
+             de la Comunidad Centroamericana de Software Libre, generando un modelo de gestión acorde a la naturaleza
+              de las personas miembros de la misma en el uso de tecnologías abiertas a nivel centroamericano..</p>
+        </div>
+          <div class="col-md-8  text-left tbl-container ">
+              <table class="table table-sm table-bordered table-striped mb-0">
+                  <thead>
+                    <tr>
+                      <th class="text-center p-2">Contenido</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="py-2">7.1. Generemos herramientas para fortalecer el andar de la comunidad.</td>
+                    </tr>
+                    <tr>
+                      <td class="py-2">7.2. Construcción de un código de conducta para la comunidad..</td>
+                    </tr>
+                    <tr>
+                      <td class="py-2">7.3. Conozcamos las iniciativas y empresas que alojamos en la comunidad.</td>
+                    </tr>
+                    <tr>
+                      <td class="py-2">7.4. Construyamos espacios de promoción, divulgación y apoyo a iniciativas locales.</td>
+                    </tr>
+                    <tr>
+                      <td class="py-2">7.5. Enseñanzas, experiencias y aprendizajes en el convivir de comunidades.</td>
+                    </tr>
+                  </tbody>
+              </table>
+          </div>
+        </div>
+    </div>
+
+    <!-- Eje Ocho -->
+    <div class="right-block" id="main-theme-8">
+      <div class="row bg-light font-weight-bold text-center align-middle" >
+        <div class="col-md-12 border p-3">Eje Temático #8: Abramos un espacio de desconferencia.</div>
+      </div>
+      <div class="row text-center border-left border-bottom portafolio-item">
+        <div class="col-md-4 align-middle border-top border-right pt-2 pb-0 mb-0 ">
+          <h6 class="font-weight-bold">Objetivo</h6>
+          <p class="text-justify">Abrir formalmente la proposición temas y actividades
+             relacionadas que no hayan sido contemplados en la definición de los demás ejes temáticos.</p>
+        </div>
+          <div class="col-md-8  text-left tbl-container ">
+              <table class="table table-sm table-bordered table-striped mb-0">
+                  <thead>
+                    <tr>
+                      <th class="text-center p-3">Contenido</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="py-4">8.1 No se definen intencionalmente: se crearán a partir de la presentación de
+                        propuestas de las personas que participen en el encuentro en el período de registro de ponencias.</td>
+                    </tr>
+                  </tbody>
+              </table>
+          </div>
+        </div>
+    </div>
+  </div>
+<br><br>
+</div>
+					<button id="app-loader" class="btn btn-warning btn-disable btn-lg d-none" disabled><i class="fa fa-circle-o-notch fa-spin fa-lg"></i> Cargando</button>
+					<input type="hidden" id="app-url" value="">
+				</fieldset>
+			</div>
+			<div class="modal fade" id="Contact" tabindex="-1" role="dialog" aria-labelledby="Body" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Contáctanos</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+      </div>
+      <div class="modal-body">
+        <p>Representante por comisión:</p>
+        <ul>
+          <li><strong>Coordinación general:</strong> Carlos Juan Martín Pérez <<a href="mailto:kadejo@gmail.com">kadejo@gmail.com</a>></li>
+          <li><strong>Comisión de soporte y sistemas informáticos:</strong> Mario Gallegos <<a href="mailto:mgallegos@decimaerp.com">mgallegos@decimaerp.com</a>></li>
+          <li><strong>Comunicación y divulgación:</strong> Karla Hernández <<a href="mailto:karla.hdz4@gmail.com">karla.hdz4@gmail.com</a>></li>
+          <li><strong>Actividades recreativas y culturales:</strong> Keyla Merino <<a href="mailto:keyla.merino@gmail.com">keyla.merino@gmail.com</a>></li>
+           <li><strong>Logística:</strong> Víctor Manuel Salmerón <!--<<a href="mailto:name@example.com">name@example.com</a>>--></li>
+          <li><strong>Finanzas:</strong> Moises Larín <<a href="mailto:info@delfos-cloud.com">info@delfos-cloud.com</a>></li>
+          <li><strong>Comisión de metodología y coordinación de voluntariado:</strong> Oscar Aguilar <<a href="mailto:oaguilar@ieproes.edu.sv">oaguilar@ieproes.edu.sv</a>></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-dismiss="modal"><i class="fa fa-undo"></i> Regresar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+			<button id="back-to-top" type="button" class="btn btn btn-success" style="top: inherit;padding: .375rem .75rem;"><i class="fa fa-chevron-up"></i></button>
+		</main>
+
+		<footer class="footer bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p class="m-0 font-weight-light font-weight-bold text-white text-center d-block d-sm-block d-md-none d-xl-none">
+          X Encuentro Centroamericano de Software Libre<br>Organizado por la SLSV
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <p class="m-0 font-weight-light font-weight-bold text-white d-none d-md-block d-lg-block d-xl-block">
+          X Encuentro Centroamericano de Software Libre</p>
+      </div>
+      <div class="col-md-4">
+        <p class="m-0 text-center font-weight-light font-weight-bold text-white d-none d-md-block d-lg-block d-xl-block">Organizado por la SLSV</p>
+      </div>
+    </div>
+  </div>
+</footer>
+	</body>
+
+	<script>
+		$(document).ready(function()
+		{
+			var wow = new WOW(
+			{
+			boxClass:     'wow',      // default
+			animateClass: 'animated', // default
+			offset:       10,          // default
+			mobile:       true,       // default
+			live:         true        // default
+			});
+
+			wow.init();
+			$('[data-toggle="tooltip"]').tooltip()
+			$('#ver-ponencias').click(function()
+			{
+				alertify.alert("¡Próximamente!", "Las ponencias estarán listas muy pronto, espéralas...");
+			});
+
+			$('#nav-ponencias').on("click", function()
+			{
+				alertify.alert("¡Próximamente!", "Las ponencias estarán listas muy pronto, espéralas...");
+			});
+
+
+			$('[data-toggle="lightbox"]').click(function(event)
+			{
+				event.preventDefault();
+				$(this).ekkoLightbox();
+			});
+		});
+	</script>
+</html>

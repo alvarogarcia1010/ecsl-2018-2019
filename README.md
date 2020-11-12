@@ -1,1 +1,2 @@
-# ecsl-2018-2019
+# Archivos estáticos de los ECSL 2018 y 2019
+ 
